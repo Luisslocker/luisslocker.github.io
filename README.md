@@ -1,87 +1,86 @@
-# luisslocker.github.io
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Luis's Locker GitHub</title>
-</head>
-<body style="font-family: sans-serif; text-align: center; padding: 50px;">
-  <h1>👋 Welcome to Luis's Locker GitHub</h1>
-  <p>This is where the code behind the drip lives.</p>
-  <p><a href="https://luisslocker.com" target="_blank">🔗 Visit Main Store</a></p>
-  <p><a href="https://github.com/Luisslocker" target="_blank">💻 Explore My Repos</a></p>
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Code by Luis | Luis’s Locker</title>
-  <meta name="description" content="Explore custom Shopify hacks, activewear code, and gamified web elements by Luis — the founder of Luis’s Locker." />
-  <meta name="keywords" content="Luis’s Locker, GitHub, Shopify popup, LuLo activewear, fitness games, code.luisslocker.com, gym streetwear, developer storefront" />
-  <meta name="author" content="Luis Flexes" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Code by Luis | Luis’s Locker" />
-  <meta property="og:description" content="Explore the code and creativity behind Luis’s Locker. From Shopify tricks to custom activewear pages." />
-  <meta property="og:url" content="https://code.luisslocker.com" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="https://luisslocker.com/cdn/shop/files/your-preview-image.jpg?v=1" />
-
-  <!-- Favicon -->
-  <link rel="icon" href="https://luisslocker.com/favicon.ico" type="image/x-icon" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The official GitHub space for Luis’s Locker – code, popups, and projects powering gym streetwear domination.">
+  <title>Luis's Locker | GitHub Portal</title>
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      background-color: #111;
-      color: #f4f4f4;
       margin: 0;
-      padding: 2rem;
-      text-align: center;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('https://cdn.shopify.com/s/files/1/0653/8077/8099/files/Blue_eyes_white_dragon_matrix_luiss_locker.png?v=1751047443');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: #f0f0f0;
+      padding: 60px 20px;
     }
-    a {
-      color: #ff3c3c;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .hero {
+
+    .container {
       max-width: 800px;
-      margin: auto;
+      margin: 0 auto 60px auto;
+      padding: 40px 30px;
+      background-color: rgba(10, 10, 10, 0.75);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
     }
-    .hero h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
+
+    h1 {
+      font-size: 2.4em;
+      color: #ffffff;
+      margin-bottom: 0.3em;
     }
-    .links {
-      margin-top: 2rem;
+
+    p {
+      font-size: 1.15em;
+      color: #cccccc;
+      margin-top: 0;
+      margin-bottom: 2em;
     }
-    .links a {
-      display: block;
-      margin: 0.5rem 0;
+
+    a {
+      display: inline-block;
+      margin: 10px 8px;
+      padding: 12px 24px;
+      color: #ffffff;
+      text-decoration: none;
+      border: 1px solid #888;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    a:hover {
+      background-color: rgba(255, 255, 255, 0.15);
+      border-color: #ffffff;
+    }
+
+    .emoji {
+      font-size: 1.3em;
+      margin-right: 6px;
     }
   </style>
 </head>
 <body>
-  <div class="hero">
-    <h1>💻 code.luisslocker.com</h1>
-    <p>Welcome to the coding brain behind Luis’s Locker.</p>
-    <p>Discover the source of our Shopify popups, LuLo activewear systems, and gamified experiences.</p>
 
-    <div class="links">
-      <a href="https://luisslocker.com" target="_blank">🛍️ Visit Luis’s Locker</a>
-      <a href="https://github.com/Luisslocker/Lulo-collection-activewear" target="_blank">👕 LuLo Activewear Code</a>
-      <a href="https://github.com/Luisslocker/Custom-shopify-popups" target="_blank">🧠 Shopify Popup Code</a>
-      <a href="https://github.com/Luisslocker/Luiss-locker-apparel" target="_blank">📦 Full Apparel Repo</a>
-    </div>
+  <div class="container">
+    <h1>👋 Welcome to Luis's Locker GitHub</h1>
+    <p>This is where the code behind the drip lives.</p>
+    <a href="https://luisslocker.com" target="_blank"><span class="emoji">🔗</span>Visit Main Store</a>
+    <a href="https://github.com/luisslocker" target="_blank"><span class="emoji">💻</span>Explore My Repos</a>
   </div>
+
+  <div class="container">
+    <h1>💻 code.luisslocker.com</h1>
+    <p>Welcome to the coding brain behind Luis’s Locker.<br>
+    Discover the source of our Shopify popups, LuLo activewear systems, and gamified experiences.</p>
+    <a href="https://luisslocker.com" target="_blank"><span class="emoji">🛍️</span>Visit Luis’s Locker</a>
+    <a href="https://github.com/Luisslocker/Lulo-collection-activewear" target="_blank"><span class="emoji">👕</span>LuLo Activewear Code</a>
+    <a href="https://github.com/Luisslocker/Custom-shopify-popups" target="_blank"><span class="emoji">🧠</span>Shopify Popup Code</a>
+    <a href="https://github.com/Luisslocker/Luiss-locker-apparel" target="_blank"><span class="emoji">📦</span>Full Apparel Repo</a>
+  </div>
+
 </body>
 </html>
